@@ -1,5 +1,8 @@
 /* Content Styles
 ---------------------------------------- */
+body {
+	background: url("./images/newHeader3_IE.png") top center no-repeat
+}
 
 ul.topiclist {
 	display: block;
@@ -52,6 +55,7 @@ ul.topiclist dt .list-inner {
 	margin-right: 440px;
 	padding-left: 5px;
 	padding-right: 5px;
+	margin-bottom: 5px;
 }
 
 ul.topiclist.missing-column dt .list-inner {
@@ -68,7 +72,7 @@ ul.topiclist.two-columns dt .list-inner {
 
 ul.topiclist dd {
 	border-left: 1px solid transparent;
-	padding: 4px 0;
+	padding: 0px 0;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -108,8 +112,8 @@ li.row strong {
 li.header dt, li.header dd {
 	line-height: 1em;
 	border-left-width: 0;
-	margin: 2px 0 4px 0;
-	padding-top: 2px;
+	/*margin: 2px 0 4px 0;
+	padding-top: 2px;*/
 	padding-bottom: 2px;
 	font-size: 1em;
 	font-family: Arial, Helvetica, sans-serif;
@@ -232,7 +236,7 @@ dd.option {
 	padding: 0;
 	line-height: 1.48em;
 	width: 76%;
-	float: left;
+	float: right;
 	position: relative;
 }
 
@@ -458,9 +462,9 @@ ul.searchresults {
 /* Quote block */
 blockquote {
 	background: transparent none 6px 8px no-repeat;
-	border: 1px solid transparent;
+	border-left: 4px solid #474747;
 	font-size: 0.95em;
-	margin: 0.5em 1px 0 25px;
+	margin: 0.5em 1px 0 35px;
 	overflow: hidden;
 	padding: 5px;
 }
@@ -529,7 +533,7 @@ blockquote .codebox {
 	margin: 5px 5px 5px 0;
 	padding: 6px;
 	border: 1px dashed transparent;
-	clear: left;
+	clear: right;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -693,11 +697,13 @@ fieldset.polls dd div {
 .postprofile {
 	margin: 5px 0 10px 0;
 	min-height: 80px;
-	border: 1px solid transparent;
-	border-width: 0 0 0 1px;
+	/*border: 1px solid transparent;*/
+	border-left: solid 3px #474747;
+	border-right: 1px solid #414141;
 	width: 22%;
-	float: right;
+	float: left;
 	display: inline;
+	color: #bdbdbd;
 }
 
 .postprofile dd, .postprofile dt {
@@ -711,7 +717,7 @@ fieldset.polls dd div {
 }
 
 .postprofile strong {
-	font-weight: normal;
+	font-weight: bold;
 }
 
 .postprofile dt.no-profile-rank, .postprofile dd.profile-rank, .postprofile .search-result-date {

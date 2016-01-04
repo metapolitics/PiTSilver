@@ -49,7 +49,7 @@ ul.cplist {
 
 .panel-container table.table1 thead th {
 	font-weight: bold;
-	border-bottom: 1px solid transparent;
+	/*border-bottom: 1px solid transparent;*/
 	padding: 5px;
 }
 

@@ -370,7 +370,7 @@ span.imageset {
 
 /* English images for fallback */
 .imageset.icon_user_online {
-	background-image: url("./en/icon_user_online.gif");
+	/*background-image: url("./en/icon_user_online.gif");*/
 	padding-left: 58px;
 	padding-top: 58px;
 }
