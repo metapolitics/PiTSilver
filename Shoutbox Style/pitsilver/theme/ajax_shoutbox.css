@@ -1,0 +1,182 @@
+.ajaxshoutbox_loadingbar {
+    background-image: url("./images/ajax-loader.gif");
+    height: 16px;
+    width: 16px;
+    float: right;
+}
+
+#ajaxshoutbox_loadbefore, #ajaxshoutbox_loadafter {
+    display: none;
+}
+#ajaxshoutbox_loadbefore {
+    height: 16px;
+    width: 16px;
+}
+
+ul.waitinglist dt {
+    width: 100%;
+}
+#shoutbox_scroll {
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+#copy { /* This element is used to copy data from. Do not show */
+    display: none;
+}
+
+ul.shoutboxlist {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+}
+
+ul.shoutboxlist li {
+    color: #CCCCCC;
+    display: block;
+    list-style-type: none;
+    margin: 0;
+}
+
+ul.shoutboxlist li.row dl {
+    padding: 2px 0;
+}
+
+ul.shoutboxlist li.row:nth-child(odd) {
+    background-color: #303030;
+}
+
+ul.shoutboxlist dl {
+    position: relative;
+    display: block;
+}
+
+ul.shoutboxlist dt {
+    font-size: 1.1em;
+}
+
+ul.shoutboxlist dt,
+ul.shoutboxlist dd.ajaxshoutbox_date,
+ul.shoutboxlist dd.ajaxshoutbox_message,
+ul.shoutboxlist dd.ajaxshoutbox_delete,
+ul.ajaxshoutboxpost dd
+{
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    min-height: 20px;
+    border: 0px solid white;
+}
+
+ul.shoutboxlist dt.ajaxshoutbox_user {
+    float: left;
+    width: 100px;
+    text-align: right;
+}
+
+
+dd.ajaxshoutbox_message {
+    width: 790px;
+    float: left;
+}
+
+dd.ajaxshoutbox_date {
+    width: 110px;
+    float: left;
+}
+
+dd.ajaxshoutbox_delete {
+    float: left;
+    width: 50px;
+    margin-right: 0px;
+}
+
+ul.ajaxshoutboxpost dt {
+
+}
+ul.ajaxshoutboxpost dd {
+    float: right;
+}
+
+ul.ajaxshoutboxpost dl {
+    position: relative;
+    display: block;
+    list-style-type: none;
+    margin-right: 0px !important;
+}
+
+#text_shoutbox {
+    text-align: left;
+    float: left;
+    border-color: #007aa7;
+    background-color: #131313;
+    border-style: solid;
+    margin-right: 5px;
+    border-width: 1px;
+    color: #CCCCCC;
+    height: 16px;
+    width: 980px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    cursor: text;
+}
+
+
+#text_shoutbox:hover {
+    border-color: gold;
+}
+
+
+#text_shoutbox:focus {
+    border-color: gold;
+}
+
+
+#submit_shoutbox {
+    border-color: #007aa7;
+    vertical-align: middle;
+    background-color: #1f1f1f;
+    color: #CCCCCC;
+     border-style: solid;
+    border-width: 1px;
+    height: 18px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    margin-right: 5px;
+    width: 60px;
+    float: left;
+}
+
+#submit_shoutbox:hover{
+    border-color: gold;
+}
+
+.shoutdelete {
+    background-color: transparent;
+    border: 0px;
+    color: #25a1cc;
+}
+
+.shoutdelete:hover{
+    color: gold;
+}
+}
+
+@media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
+    ul.shoutboxlist dd.ajaxshoutbox_date {
+        display: none;
+    }
+    ul.shoutboxlist dd.ajaxshoutbox_message {
+        display: block;
+    }
+    ul.shoutboxlist dt {
+        padding-left: 1px;
+        margin-right: 5px !important;
+    }
+
+}
