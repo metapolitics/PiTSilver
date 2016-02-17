@@ -1,6 +1,6 @@
 /* Content Styles
 ---------------------------------------- */
-body {
+#wrap {
 	background: url("./images/newHeader3_IE.png") top center no-repeat
 }
 
@@ -149,7 +149,7 @@ li.header dl.icon dt .list-inner {
 
 /* Forum list column styles */
 dl.icon {
-	background-position: 10px 50%;		/* Position of folder icon */
+	background-position: 5px 50%;		/* Position of folder icon */
 	background-repeat: no-repeat;
 }
 

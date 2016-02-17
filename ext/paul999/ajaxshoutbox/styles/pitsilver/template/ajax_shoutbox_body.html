@@ -36,7 +36,9 @@
                             <form action="{U_DELETE_SHOUTBOX}" data-type="submit-delete" method="post">
                                 <input type="hidden" name="sid" value="{SESSION_ID}" />
                                 <input data-type="delete-id" type="hidden" name="id" value="" />
-                                <input type="submit" name="delete" value="{L_DELETE}" class="shoutdelete" />
+                                <input data-type="delete-form-time" type="hidden" name="creation_time" value="" />
+                                <input data-type="delete-form-token" type="hidden" name="form_token" value="" />
+                                <input type="submit" name="delete" value="{L_DELETE}" class="button2" />
                             </form>
                         </dd>
                         <dd data-type="date" class="ajaxshoutbox_date"></dd>
@@ -62,7 +64,7 @@
                         <dt><input type="text" class="shoutinput" name="text_shoutbox" id="text_shoutbox"/>
                             <input type="submit" name="submit" value="{L_SUBMIT}" class="shoutbtn" id="submit_shoutbox">
                         </dt>
-                        <dd><div class="ajaxshoutbox_loadingbar" id="ajaxshoutbox_loadbefore"></div><br style="clear:"both"; /></dd>
+                        <dd><div class="ajaxshoutbox_loadingbar" id="ajaxshoutbox_loadbefore"></div><br style="clear:both"; /></dd>
                     
                     </dl>
                 </li>
