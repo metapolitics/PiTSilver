@@ -226,7 +226,7 @@ dl.details dd {
 }
 
 .error {
-	color: #BC2A4D;
+	color: red;
 }
 
 .reported {
@@ -271,7 +271,8 @@ a { color: #25a1cc; }
 a:hover	{ color: gold; }
 
 a.forumtitle {
-	color: #3197f2;
+	/*color: #3197f2;*/
+	color: #25a1cc;
 }
 
 a.forumtitle:hover {
@@ -614,7 +615,7 @@ fieldset.polls dd div {
 }
 
 .postprofile strong {
-	color: #FFFFFF;
+	/*color: #FFFFFF;*/
 }
 
 .online .postprofile {
@@ -641,6 +642,7 @@ Colours and backgrounds for buttons.css
 	border-color: #474747; /* #C7C3BF;*/
 	border-width: 1px;
 	background-color: #252525; /* #FFFFFF;*/
+	color: #CCCCCC;
 	/*color: #474747;*/
 	/*background-image: -moz-linear-gradient(top, #FFFFFF, #E9E9E9);
 	background-image: -webkit-linear-gradient(top, #FFFFFF, #E9E9E9);
@@ -651,6 +653,10 @@ Colours and backgrounds for buttons.css
 	-webkit-box-shadow: 0 0 0 1px #FFFFFF inset;*/
 	
 
+}
+
+.button.post-icon {
+	color:#CCCCCC
 }
 
 .button:hover {
@@ -948,7 +954,7 @@ ul.cplist {
 }
 
 #cp-main .pm {
-	background-color: #FFFFFF;
+	background-color: #383838;
 }
 
 /* Friends list */
