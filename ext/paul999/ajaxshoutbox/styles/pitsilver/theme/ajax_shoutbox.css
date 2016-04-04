@@ -79,7 +79,7 @@ ul.shoutboxlist dt.ajaxshoutbox_user {
 
 
 dd.ajaxshoutbox_message {
-    width: 790px;
+    width: 785px;
     float: left;
 }
 
@@ -91,7 +91,7 @@ dd.ajaxshoutbox_date {
 dd.ajaxshoutbox_delete {
     float: left;
     width: 50px;
-    margin-right: 0px;
+    margin-right: 0px !important ;
 }
 
 ul.ajaxshoutboxpost dt {
@@ -157,15 +157,15 @@ ul.ajaxshoutboxpost dl {
 }
 
 .shoutdelete {
-    background-color: transparent;
-    border: 0px;
-    color: #25a1cc;
+    background-color: transparent !important;
+    border: 0px !important;
+    color: #25a1cc !important;
 }
 
 .shoutdelete:hover{
-    color: gold;
+    color: gold !important;
 }
-}
+
 
 @media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
     ul.shoutboxlist dd.ajaxshoutbox_date {
